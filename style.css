@@ -1,0 +1,51 @@
+body {
+    padding-top: 50px;
+    font-family: Arial, sans-serif;
+}
+
+.main_color {
+    color: darkturquoise;
+}
+
+.sub_color {
+    color: tomato;
+}
+
+nav {
+    background-color: darkturquoise;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.icons a {
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    background-color: #495057;
+    color: whitesmoke !important;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 3rem;
+    margin-right: 1rem;
+}
+
+a {
+    color: tomato;
+    background-color: transparent;
+}
+
+a:hover {
+    color: tomato;
+}
+
+.icons a:hover {
+    background-color: tomato;
+}
+
+h2 {
+    padding-top: 0.5rem;
+}
