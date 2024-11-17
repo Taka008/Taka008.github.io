@@ -1,18 +1,25 @@
+:root {
+    --main-color: #2c3e50;
+    --sub-color: #34495e;
+    --accent-color: #1abc9c;
+    --text-color: #ecf0f1;
+    --link-color: #3498db;
+    --hover-color: #2980b9;
+}
+
 body {
     padding-top: 50px;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: var(--main-color);
 }
 
 .main_color {
-    color: darkturquoise;
-}
-
-.sub_color {
-    color: tomato;
+    color: var(--main-color);
 }
 
 nav {
-    background-color: darkturquoise;
+    background-color: var(--main-color);
 }
 
 section {
@@ -24,28 +31,35 @@ section {
     display: inline-block;
     height: 3rem;
     width: 3rem;
-    background-color: #495057;
-    color: whitesmoke !important;
+    background-color: var(--sub-color);
+    color: var(--text-color);
     border-radius: 100%;
     font-size: 1.5rem;
     text-align: center;
     line-height: 3rem;
     margin-right: 1rem;
+    transition: background-color 0.3s ease;
 }
 
 a {
-    color: tomato;
+    color: var(--link-color);
     background-color: transparent;
+    text-decoration: none;
 }
 
 a:hover {
-    color: tomato;
+    color: var(--hover-color);
 }
 
 .icons a:hover {
-    background-color: tomato;
+    background-color: var(--accent-color);
 }
 
 h2 {
     padding-top: 0.5rem;
+    color: var(--main-color);
+}
+
+h1, h5 {
+    color: var(--main-color);
 }
