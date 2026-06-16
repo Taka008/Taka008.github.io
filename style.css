@@ -60,6 +60,12 @@ h2 {
     color: var(--main-color);
 }
 
-h1, h5 {
+h1, .about-summary {
     color: var(--main-color);
+}
+
+.about-summary {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
